@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import "reset.css";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.cnt {
+    margin: 0 70px;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.container>button {
+    height: 40px;
+    border: 0;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+}
